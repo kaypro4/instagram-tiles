@@ -1,0 +1,14 @@
+    <div>
+        <ul>
+            <li ng:repeat="data in imageFeed">
+            	<a ng-href="{{data.link}}" target="_blank">
+            	<span class="image">
+                <img ng-src="{{data.images.low_resolution.url}}">
+                <span class="likes"><i class="fa fa-heart"></i> {{data.likes.count}}</span>
+                <span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+

@@ -1,0 +1,30 @@
+#instagrams{
+    margin: auto;
+}
+#instagrams ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#instagrams ul li{
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    position:relative;
+}
+#instagrams ul li img{
+    height: 120px;
+}
+
+#instagrams ul li .likes {
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
+	color: red;
+	font-weight:700;
+	font-size:80%;
+}
